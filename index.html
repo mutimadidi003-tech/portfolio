@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutimutuza Didacienne- Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">MND<span>.</span></div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Mutimutuza Didacienne-</h1>
+                    <p class="hero-role">Frontend Developer | Computer Science Student</p>
+                    <p class="hero-tagline">Building responsive and user-friendly web solutions for Musanze's digital future</p>
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/dd.jpeg" alt="Mutimutuza Didacienne- Profile Picture" class="profile-img">
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Computer Science student at the Faculty of Sciences and Information Technology, currently in my second year. Growing up in Musanze, I've witnessed how technology can transform communities, which inspired me to pursue web development.</p>
+                        <p><strong>Program:</strong> Year II, FEB Day Program (2025-2026)</p>
+                        <p><strong>Career Goal:</strong> To become a full-stack developer creating digital solutions for Rwandan businesses and communities.</p>
+                    </div>
+                    <div class="skills-list">
+                        <h3>Core Competencies</h3>
+                        <ul>
+                            <li>Semantic HTML5 & Accessibility</li>
+                            <li>Advanced CSS (Flexbox, Grid, Animation)</li>
+                            <li>JavaScript & DOM Manipulation</li>
+                            <li>Responsive Web Design</li>
+                            <li>Git Version Control</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-github"></i>
+                        <h3>Git/GitHub</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="assets/images/project1.jpg" alt="Musanze Tourism Website">
+                        <div class="project-info">
+                            <h3>Musanze Tourism Portal</h3>
+                            <p class="problem">Problem: Tourists struggle to find organized information about Musanze attractions, accommodations, and activities.</p>
+                            <p class="tech-stack">Tech: HTML5, CSS3, JavaScript, Google Maps API</p>
+                            <div class="project-links">
+                                <a href="https://github.com/mutimadidi003-tech?tab=repositories" target="_blank"><i class="fab fa-github"></i> Code</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/images/project2.jpg" alt="Student Grade Tracker">
+                        <div class="project-info">
+                            <h3>Student Grade Tracker</h3>
+                            <p class="problem">Problem: Students need a simple way to track their academic performance and calculate GPAs manually.</p>
+                            <p class="tech-stack">Tech: HTML5, CSS3, JavaScript, LocalStorage</p>
+                            <div class="project-links">
+                                <a href="https://github.com/mutimadidi003-tech?tab=repositories" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/images/project3.jpg" alt="Weather App">
+                        <div class="project-info">
+                            <h3>Rwanda Weather Dashboard</h3>
+                            <p class="problem">Problem: Farmers in Musanze need localized weather forecasts for agricultural planning.</p>
+                            <p class="tech-stack">Tech: HTML5, CSS3, JavaScript, Weather API</p>
+                            <div class="project-links">
+                                <a href="https://github.com/mutimadidi003-tech?tab=repositories" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="calculator" class="calculator">
+            <div class="container">
+                <h2>Student GPA Calculator</h2>
+                <p class="calculator-desc">Calculate your semester GPA based on your course marks</p>
+                
+                <div class="calculator-container">
+                    <form id="gpaForm">
+                        <div class="course-inputs" id="courseInputs">
+                            <div class="course-row">
+                                <input type="text" placeholder="Course Name" class="course-name" required>
+                                <input type="number" placeholder="Marks (0-100)" min="0" max="100" class="course-mark" required>
+                                <select class="course-credit">
+                                    <option value="3">3 Credits</option>
+                                    <option value="4">4 Credits</option>
+                                    <option value="5">5 Credits</option>
+                                </select>
+                                <button type="button" class="remove-course" onclick="removeCourse(this)"><i class="fas fa-times"></i></button>
+                            </div>
+                        </div>
+                        
+                        <div class="calculator-actions">
+                            <button type="button" id="addCourse" class="btn-secondary">
+                                <i class="fas fa-plus"></i> Add Course
+                            </button>
+                            <button type="button" id="calculateGPA" class="btn-primary">
+                                Calculate GPA
+                            </button>
+                            <button type="button" id="resetCalculator" class="btn-secondary">
+                                <i class="fas fa-redo"></i> Reset
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="gpaResult" class="gpa-result hidden">
+                        <h3>Your GPA Results</h3>
+                        <div class="result-box">
+                            <p>Total GPA: <span id="gpaValue">0.00</span></p>
+                            <p>Classification: <span id="gpaClassification">-</span></p>
+                        </div>
+                    </div>
+
+                    <div id="gpaError" class="error-message hidden"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="cv-section">
+            <div class="container">
+                <h2>Curriculum Vitae</h2>
+                <div class="cv-container">
+                    <div class="cv-preview">
+                        <h3>Mutimutuza Didacienne-</h3>
+                        <p class="cv-title">Frontend Developer</p>
+                        
+                        <div class="cv-block">
+                            <h4>Education</h4>
+                            <p><strong>Year II Computer Science</strong> - Faculty of Sciences and Information Technology (2025-2026)</p>
+                            <p>FEB Day Program</p>
+                        </div>
+                        
+                        <div class="cv-block">
+                            <h4>Technical Skills</h4>
+                            <ul>
+                                <li>HTML5, CSS3, JavaScript</li>
+                                <li>Responsive Web Design</li>
+                                <li>Git & GitHub</li>
+                                <li>Bootstrap Framework</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="cv-block">
+                            <h4>Projects</h4>
+                            <p><strong>Musanze Tourism Portal:</strong> Built a responsive tourism website</p>
+                            <p><strong>Student Grade Tracker:</strong> JavaScript-based GPA calculator</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cv-download">
+                       <a href="assets/cv/cv.pdf" download="Mutimutuza_Didacienne_CV.pdf" class="download-btn">
+    <i class="fas fa-download"></i> Download CV (PDF)
+</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                
+                        <p><i class="fas fa-phone"></i>0795765588</p>
+                        <a href="https://www.linkedin.com/in/mutima-didi-3216083b2" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+                        <a href="https://github.com/mutimadidi003-tech?tab=repositories" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+
+                    </div>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <span class="error" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <span class="error" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <span class="error" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <p id="formSuccess" class="success-message hidden">Message sent successfully!</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Mutimutuza Didacienne-. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
